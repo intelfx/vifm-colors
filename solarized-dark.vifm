@@ -35,10 +35,10 @@ highlight WildMenu        cterm=underline,reverse ctermfg=white ctermbg=black
 highlight CmdLine         cterm=none ctermfg=white ctermbg=black
 highlight ErrorMsg        cterm=none ctermfg=red ctermbg=black
 
-highlight Directory       cterm=bold ctermfg=blue ctermbg=default
-highlight Link            cterm=none ctermfg=yellow ctermbg=default
-highlight BrokenLink      cterm=none ctermfg=red ctermbg=default
-highlight Socket          cterm=none ctermfg=magenta ctermbg=default
+highlight Directory       cterm=none ctermfg=cyan ctermbg=default
+highlight Link            cterm=none ctermfg=magenta ctermbg=default
+highlight BrokenLink      cterm=reverse ctermfg=red ctermbg=white
+highlight Socket          cterm=reverse ctermfg=magenta ctermbg=default
 highlight Device          cterm=none ctermfg=red ctermbg=default
-highlight Fifo            cterm=none ctermfg=cyan ctermbg=default
-highlight Executable      cterm=none ctermfg=green ctermbg=default
+highlight Fifo            cterm=reverse ctermfg=blue ctermbg=default
+highlight Executable      cterm=bold ctermfg=red ctermbg=default
